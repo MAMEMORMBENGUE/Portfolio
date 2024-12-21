@@ -1,0 +1,129 @@
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* En-tête du portfolio */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections principales */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section À propos */
+.section-about {
+    text-align: center;
+}
+
+.section-about h2 {
+    color: #333;
+}
+
+.section-about p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Section Compétences */
+.section-skills h2 {
+    color: #333;
+    text-align: center;
+}
+
+.section-skills ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.section-skills li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Section Projets */
+.section-projects h2 {
+    color: #333;
+    text-align: center;
+}
+
+.section-projects .project {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-projects .project h3 {
+    margin: 0;
+}
+
+.section-projects .project p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Section Contact */
+.section-contact {
+    text-align: center;
+}
+
+.section-contact h2 {
+    color: #333;
+}
+
+.section-contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.section-contact a:hover {
+    text-decoration: underline;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
